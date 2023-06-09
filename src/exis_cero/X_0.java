@@ -287,6 +287,7 @@ public class X_0 extends javax.swing.JFrame {
                      int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+
                   }else if (resultado2==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
                   }
