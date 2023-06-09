@@ -13,25 +13,25 @@ public class X_0 extends javax.swing.JFrame {
     int jugadorXgano(){
             if (jugadorXgano[0]==1 && jugadorXgano[1]==1 && jugadorXgano[2]==1){
                  return 1;
-            }
+            }else
              if (jugadorXgano[3]==1 && jugadorXgano[4]==1 && jugadorXgano[5]==1){
                  return 1;
-            }
+            }else
               if (jugadorXgano[6]==1 && jugadorXgano[7]==1 && jugadorXgano[8]==1){
                  return 1;
-            }
+            }else
                if (jugadorXgano[0]==1 && jugadorXgano[3]==1 && jugadorXgano[6]==1){
                  return 1;
-            }
+            }else
                 if (jugadorXgano[1]==1 && jugadorXgano[4]==1 && jugadorXgano[7]==1){
                  return 1;
-            }
+            }else
                  if (jugadorXgano[2]==1 && jugadorXgano[5]==1 && jugadorXgano[8]==1){
                  return 1;
-            }
+            }else
                   if (jugadorXgano[0]==1 && jugadorXgano[4]==1 && jugadorXgano[8]==1){
                  return 1;
-            }
+            }else
                    if (jugadorXgano[2]==1 && jugadorXgano[4]==1 && jugadorXgano[6]==1){
                  return 1;
             } 
@@ -44,25 +44,26 @@ public class X_0 extends javax.swing.JFrame {
             }
              if (jugadorOgano[3]==1 && jugadorOgano[4]==1 && jugadorOgano[5]==1){
                  return 1;
-            }
-              if (jugadorOgano[6]==1 && jugadorOgano[7]==1 && jugadorOgano[8]==1){
+            }else 
+                 if (jugadorOgano[6]==1 && jugadorOgano[7]==1 && jugadorOgano[8]==1){
                  return 1;
-            }
+            }else
                if (jugadorOgano[0]==1 && jugadorOgano[3]==1 && jugadorOgano[6]==1){
                  return 1;
-            }
+            }else
                 if (jugadorOgano[1]==1 && jugadorOgano[4]==1 && jugadorOgano[7]==1){
                  return 1;
-            }
+            }else
                  if (jugadorOgano[2]==1 && jugadorOgano[5]==1 && jugadorOgano[8]==1){
                  return 1;
-            }
+            }else
                   if (jugadorOgano[0]==1 && jugadorOgano[4]==1 && jugadorOgano[8]==1){
                  return 1;
-            }
+            }else
                    if (jugadorOgano[2]==1 && jugadorOgano[4]==1 && jugadorOgano[6]==1){
                  return 1;
-            } 
+            }
+                      
     return 0;
     }
 
