@@ -9,6 +9,7 @@ public class X_0 extends javax.swing.JFrame {
     int botonutilizado[]={0,0,0,0,0,0,0,0,0};
     int jugadorXgano[]={0,0,0,0,0,0,0,0,0};
     int jugadorOgano[]={0,0,0,0,0,0,0,0,0};
+    int empate[]={0,0,0,0,0,0,0,0,0,0};
 
     int jugadorXgano(){
             if (jugadorXgano[0]==1 && jugadorXgano[1]==1 && jugadorXgano[2]==1){
@@ -66,6 +67,28 @@ public class X_0 extends javax.swing.JFrame {
                       
     return 0;
     }
+     int empate(){
+     if(jugadorXgano[0]==0 && jugadorOgano[0]==0 ){
+        if(jugadorXgano[1]==0 && jugadorOgano[1]==0 ){
+            if(jugadorXgano[2]==0 && jugadorOgano[2]==0 ){
+                if(jugadorXgano[3]==0 && jugadorOgano[3]==0 ){
+                    if(jugadorXgano[4]==0 && jugadorOgano[4]==0 ){
+                        if(jugadorXgano[5]==0 && jugadorOgano[5]==0 ){
+                            if(jugadorXgano[6]==0 && jugadorOgano[6]==0 ){
+                                if(jugadorXgano[7]==0 && jugadorOgano[7]==0 ){
+                                      if(jugadorXgano[8]==0 && jugadorOgano[8]==0 ){
+                                          return 1;
+                                     }
+                                }
+                            }
+                        }
+                      }
+                  }
+              }
+           }
+     }
+     return 0;
+     }
 
     public X_0() {
         initComponents();
@@ -261,6 +284,7 @@ public class X_0 extends javax.swing.JFrame {
                  jugadorXgano[0]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -273,6 +297,7 @@ public class X_0 extends javax.swing.JFrame {
                   jugadorOgano[0]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -293,6 +318,7 @@ public class X_0 extends javax.swing.JFrame {
                  jugadorXgano[2]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -305,6 +331,7 @@ public class X_0 extends javax.swing.JFrame {
                  jugadorOgano[2]=1;
                   int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -325,6 +352,7 @@ public class X_0 extends javax.swing.JFrame {
                  jugadorXgano[1]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -337,6 +365,7 @@ public class X_0 extends javax.swing.JFrame {
                   jugadorOgano[1]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -357,6 +386,7 @@ public class X_0 extends javax.swing.JFrame {
                  jugadorXgano[3]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -369,6 +399,7 @@ public class X_0 extends javax.swing.JFrame {
                   jugadorOgano[3]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -389,6 +420,7 @@ public class X_0 extends javax.swing.JFrame {
                  jugadorXgano[4]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -401,6 +433,7 @@ public class X_0 extends javax.swing.JFrame {
                   jugadorOgano[4]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -421,6 +454,7 @@ public class X_0 extends javax.swing.JFrame {
                  jugadorXgano[5]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -433,6 +467,7 @@ public class X_0 extends javax.swing.JFrame {
                   jugadorOgano[5]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -453,6 +488,7 @@ public class X_0 extends javax.swing.JFrame {
                  jugadorXgano[6]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -465,6 +501,7 @@ public class X_0 extends javax.swing.JFrame {
                   jugadorOgano[6]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -485,6 +522,7 @@ public class X_0 extends javax.swing.JFrame {
                      jugadorXgano[7]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -497,6 +535,7 @@ public class X_0 extends javax.swing.JFrame {
                       jugadorOgano[7]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -517,6 +556,7 @@ public class X_0 extends javax.swing.JFrame {
                      jugadorXgano[8]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                     int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
@@ -529,6 +569,7 @@ public class X_0 extends javax.swing.JFrame {
                       jugadorOgano[8]=1;
                  int resultado1=jugadorXgano();
                   int resultado2=jugadorOgano();
+                  int resultado3=empate();
                   if(resultado1==1){
                       JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
                   }else if (resultado2==1){
