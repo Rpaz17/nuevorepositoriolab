@@ -92,6 +92,8 @@ public class X_0 extends javax.swing.JFrame {
 
     public X_0() {
         initComponents();
+        //      que pasaa
+        
     }
 
     @SuppressWarnings("unchecked")
