@@ -245,10 +245,26 @@ public class X_0 extends javax.swing.JFrame {
                 turno++;
                 fc00.setText("X");
                 botonutilizado[0]=1;
+                 jugadorXgano[0]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }else{
                 turno++;
                 fc00.setText("O");
                  botonutilizado[0]=1;
+                  jugadorOgano[0]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
@@ -261,12 +277,26 @@ public class X_0 extends javax.swing.JFrame {
                 turno++;
                 fc02.setText("X");
                 botonutilizado[2]=1;
-                 jugadorXgano[0]=1;
+                 jugadorXgano[2]=1;
                  int resultado1=jugadorXgano();
-            }else{
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
+            }else {
                 turno++;
                 fc02.setText("O");
                  botonutilizado[2]=1;
+                 jugadorOgano[2]=1;
+                  int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
@@ -279,10 +309,26 @@ public class X_0 extends javax.swing.JFrame {
                 turno++;
                 fc01.setText("X");
                 botonutilizado[1]=1;
+                 jugadorXgano[1]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }else{
                 turno++;
                 fc01.setText("O");
                  botonutilizado[1]=1;
+                  jugadorOgano[1]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
@@ -295,10 +341,26 @@ public class X_0 extends javax.swing.JFrame {
                 turno++;
                 fc10.setText("X");
                 botonutilizado[3]=1;
+                 jugadorXgano[3]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }else{
                 turno++;
                 fc10.setText("O");
                  botonutilizado[3]=1;
+                  jugadorOgano[3]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
@@ -311,10 +373,26 @@ public class X_0 extends javax.swing.JFrame {
                 turno++;
                 fc11.setText("X");
                 botonutilizado[4]=1;
+                 jugadorXgano[4]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }else{
                 turno++;
                 fc11.setText("O");
                  botonutilizado[4]=1;
+                  jugadorOgano[4]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
@@ -327,10 +405,26 @@ public class X_0 extends javax.swing.JFrame {
                 turno++;
                 fc12.setText("X");
                 botonutilizado[5]=1;
+                 jugadorXgano[5]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }else{
                 turno++;
                 fc12.setText("O");
                  botonutilizado[5]=1;
+                  jugadorOgano[5]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
@@ -343,10 +437,26 @@ public class X_0 extends javax.swing.JFrame {
                 turno++;
                 fc20.setText("X");
                 botonutilizado[6]=1;
+                 jugadorXgano[6]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }else{
                 turno++;
                 fc20.setText("O");
                  botonutilizado[6]=1;
+                  jugadorOgano[6]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
             }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
@@ -359,10 +469,26 @@ public class X_0 extends javax.swing.JFrame {
                     turno++;
                     fc21.setText("X");
                     botonutilizado[7]=1;
+                     jugadorXgano[7]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
                 }else{
                     turno++;
                     fc21.setText("O");
                      botonutilizado[7]=1;
+                      jugadorOgano[7]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
                 }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
@@ -375,10 +501,26 @@ public class X_0 extends javax.swing.JFrame {
                     turno++;
                     fc22.setText("X");
                     botonutilizado[8]=1;
+                     jugadorXgano[8]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
                 }else{
                     turno++;
                     fc22.setText("O");
                      botonutilizado[8]=1;
+                      jugadorOgano[8]=1;
+                 int resultado1=jugadorXgano();
+                  int resultado2=jugadorOgano();
+                  if(resultado1==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! X HAS GANDO!!");
+                  }else if (resultado2==1){
+                      JOptionPane.showMessageDialog(rootPane, "FELICIDADES! O HAS GANDO!!");
+                  }
                 }
         }else{
                 JOptionPane.showMessageDialog(rootPane, "Este boton ya esta tomado!");
