@@ -85,6 +85,7 @@ public class X_0 extends javax.swing.JFrame {
         fc10 = new javax.swing.JButton();
         fc11 = new javax.swing.JButton();
         fc20 = new javax.swing.JButton();
+        regreso = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -171,6 +172,14 @@ public class X_0 extends javax.swing.JFrame {
             }
         });
 
+        regreso.setFont(new java.awt.Font("Tempus Sans ITC", 0, 24)); // NOI18N
+        regreso.setText("SALIR");
+        regreso.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                regresoActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -190,7 +199,9 @@ public class X_0 extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(fc11, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(fc21, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(regreso, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(fc21, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(fc12, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -217,7 +228,9 @@ public class X_0 extends javax.swing.JFrame {
                         .addComponent(fc21, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(fc22, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(fc20, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(67, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(regreso, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -233,8 +246,7 @@ public class X_0 extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -532,6 +544,28 @@ public class X_0 extends javax.swing.JFrame {
         ImageIcon fondo = new ImageIcon("C:/Users/fampa/Documents/NetBeansProjects/exis_cero/src/exis_cero/Fondo_X_0.png");
     }//GEN-LAST:event_jPanel1AncestorAdded
 
+    private void regresoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regresoActionPerformed
+        fc00.setText(null);
+        fc01.setText(null);
+        fc02.setText(null);
+        fc10.setText(null);
+        fc11.setText(null);
+        fc12.setText(null);
+        fc20.setText(null);
+        fc21.setText(null);
+        fc22.setText(null);
+        turno=2;
+        for (int i=0;i<9;i++){
+            botonutilizado[i]=0;
+        }
+        for (int i=0;i<9;i++){
+           jugadorXgano[i]=0;
+        }
+        for (int i=0;i<9;i++){
+           jugadorOgano[i]=0;
+        }
+    }//GEN-LAST:event_regresoActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -575,6 +609,7 @@ public class X_0 extends javax.swing.JFrame {
     private javax.swing.JButton fc21;
     private javax.swing.JButton fc22;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton regreso;
     // End of variables declaration//GEN-END:variables
 
 }
