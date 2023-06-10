@@ -199,6 +199,11 @@ public class X_0 extends javax.swing.JFrame {
 
         regreso.setFont(new java.awt.Font("Tempus Sans ITC", 0, 24)); // NOI18N
         regreso.setText("SALIR");
+        regreso.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                regresoMouseClicked(evt);
+            }
+        });
         regreso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 regresoActionPerformed(evt);
@@ -609,6 +614,12 @@ public class X_0 extends javax.swing.JFrame {
            jugadorOgano[i]=0;
         }
     }//GEN-LAST:event_regresoActionPerformed
+
+    private void regresoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_regresoMouseClicked
+       MenuPrincipal menu=new MenuPrincipal();
+       menu.setVisible(true);
+       this.setVisible(false);
+    }//GEN-LAST:event_regresoMouseClicked
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
